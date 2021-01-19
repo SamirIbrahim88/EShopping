@@ -1,0 +1,6 @@
+ $subject = sprintf('%s: your account has been created %s',config('app.name'),'admin');
+ $greeting = sprintf('%s Hello',$notifiable->name);
+
+==============================================================================
+
+use Illuminate\Support\Facades\Notification;
